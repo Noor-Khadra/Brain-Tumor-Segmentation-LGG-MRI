@@ -1,0 +1,19 @@
+Brain Tumor Segmentation (LGG MRI)
+Overview
+In this project, students will develop a semantic segmentation model to identify and delineate lower-grade glioma (LGG) tumors in brain MRI images. The dataset is sourced from the publicly available LGG MRI Segmentation dataset on Kaggle. The goal is to design and train a deep learning model that accurately separates tumor regions from healthy brain tissue in 2D MRI slices.
+Objectives
+• Explore and preprocess the MRI dataset
+• Build a segmentation model (e.g., U-Net or a variant)
+• Train and fine-tune the model using modern practices such as data augmentation and appropriate loss functions
+• Evaluate performance using standard segmentation metrics
+• Summarize findings and reflect on strengths, limitations, and lessons learned
+Dataset
+• Name: LGG MRI Segmentation (Kaggle)
+• Content: 2D axial MRI slices with corresponding tumor masks grouped by patient
+• Access: https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
+Suggested Approach
+• Compare multiple deep learning architectures
+• Analyze why certain models or strategies perform better
+• Assess generalization across patients
+• Optionally explore interpretability
+• Recommended baseline: U-Net; Primary metric: Dice score
